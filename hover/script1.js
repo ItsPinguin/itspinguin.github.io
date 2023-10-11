@@ -5,7 +5,7 @@ document.getElementById("gradient").addEventListener( "mousemove", (e) => {
         mouseXpercentage = Math.round(e.pageX / windowWidth * 100);
         mouseYpercentage = Math.round(e.pageY / windowHeight * 100);
         for (const grad of document.getElementsByClassName("radial-gradient")) {
-                grad.style.background='radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #202020, #101010 20%';
+                grad.style.background='radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, rgb(60,60,80), rgb(40,40,60) 25%';
         }
 });
 

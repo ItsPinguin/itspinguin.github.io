@@ -1,3 +1,8 @@
+:root {
+    --color: rgb(40, 40, 60);
+    --color2: rgb(30, 30, 50);
+}
+
 .radial-gradient {
     position:fixed;
     top:0px;
@@ -10,6 +15,14 @@
     /*Linear gradient... */
     background:
     radial-gradient(
-    at center, #0098db, #9b59b6
+    circle at center, var(--color) ,var(--color)
     );
+    color: var(--color2);
+}
+
+.header {
+    color: var(--color2);
+    font-size: 50px;
+    font-family: Arial, sans-ms;
+    text-align: center;
 }
