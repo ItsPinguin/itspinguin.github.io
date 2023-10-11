@@ -1,6 +1,13 @@
 :root {
     --color: rgb(40, 40, 60);
     --color2: rgb(30, 30, 50);
+    --color3: rgb(50, 50, 70);
+}
+
+h1, h2, h3, h4, span {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    margin: 0px;
 }
 
 .radial-gradient {
@@ -9,6 +16,8 @@
     left:0px;
     height:100%;
     width:100%;
+
+    font-family: Arial, sans-ms;
 
     /*Fallback if gradeints don't work */
     background: #9b59b6;
@@ -27,3 +36,38 @@
     padding: 10px;
     margin: auto;
 }
+
+.card {
+    flex-wrap: wrap;
+    gap: 8px;
+    background-color: var(--color3);
+    border-radius: 10px;
+    outline: solid rgb(50, 50, 70) 5px;
+    cursor: pointer;
+    display: flex;
+    height: 260px;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    margin: 20px;
+    transition: 1s ease;
+}
+
+.card:hover {
+    background-color: var(--color2);
+    outline: solid rgb(70, 70, 90) 5px;
+}
+
+.card > .card-content {
+    color: rgb(100,100,120);
+    font-size: 20px;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    inset: 1px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
