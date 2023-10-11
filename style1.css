@@ -44,18 +44,27 @@ h1, h2, h3, h4, span {
     border-radius: 10px;
     outline: solid rgb(50, 50, 70) 5px;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
     height: 260px;
     flex-direction: column;
     position: relative;
     width: 300px;
     margin: 20px;
-    transition: 1s ease;
+    transition: 0.7s ease;
 }
 
 .card:hover {
     background-color: var(--color2);
     outline: solid rgb(70, 70, 90) 5px;
+
+    transition: 0.7s ease;
+    transform: translateY(-5px);
+}
+
+.card:active {
+
+    transition: transform 0.2s ease;
+    transform: translateY(30px);
 }
 
 .card > .card-content {
