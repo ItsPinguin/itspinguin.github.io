@@ -1,0 +1,75 @@
+[
+    {
+        "title": "My project",
+        "description": "A description of my project",
+        "url": "/projects/my-project",
+        "image": "https://placehold.co/600x400",
+        "date": "01/05/2025",
+        "tags": ["tag1", "tag2", "tag3"]
+    },
+    {
+        "title": "Another project",
+        "description": "A description of another project",
+        "url": "/projects/another-project",
+        "image": "/images/another-project.png",
+        "date": "15/06/2025",
+        "tags": ["tagA", "tagB", "tagC"]
+    },
+    {
+        "title": "Third project",
+        "description": "A description of the third project",
+        "url": "/projects/third-project",
+        "image": "/images/third-project.png",
+        "date": "30/07/2025",
+        "tags": ["tagX", "tagY", "tagZ"]
+    },
+    {
+        "title": "My project",
+        "description": "A description of my project",
+        "url": "/projects/my-project",
+        "image": "https://placehold.co/600x400",
+        "date": "01/05/2025",
+        "tags": ["tag1", "tag2", "tag3"]
+    },
+    {
+        "title": "Another project",
+        "description": "A description of another project",
+        "url": "/projects/another-project",
+        "image": "/images/another-project.png",
+        "date": "15/06/2025",
+        "tags": ["tagA", "tagB", "tagC"]
+    },
+    {
+        "title": "Third project",
+        "description": "A description of the third project",
+        "url": "/projects/third-project",
+        "image": "/images/third-project.png",
+        "date": "30/07/2025",
+        "tags": ["tagX", "tagY", "tagZ"]
+    },
+    {
+        "title": "My project",
+        "description": "A description of my project",
+        "url": "/projects/my-project",
+        "image": "https://placehold.co/600x400",
+        "date": "01/05/2025",
+        "tags": ["tag1", "tag2", "tag3"]
+    },
+    {
+        "title": "Another project",
+        "description": "A description of another project",
+        "url": "/projects/another-project",
+        "image": "/images/another-project.png",
+        "date": "15/06/2025",
+        "tags": ["tagA", "tagB", "tagC"]
+    },
+    {
+        "title": "Third project",
+        "description": "A description of the third project, but it is very long and should be truncated in the card component to avoid breaking the layout",
+        "url": "/projects/third-project",
+        "image": "/images/third-project.png",
+        "date": "30/07/2025",
+        "tags": ["tagX", "tagY", "tagZ"]
+    }
+
+]
