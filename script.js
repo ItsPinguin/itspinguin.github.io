@@ -16,6 +16,7 @@ async function loadProjects() {
             cardHTML = cardHTML.replaceAll('{project.title}', project.title);
             cardHTML = cardHTML.replaceAll('{project.date}', project.date);
             cardHTML = cardHTML.replaceAll('{project.description}', project.description);
+            cardHTML = cardHTML.replaceAll('{project.url}', project.url);
             
             const card = document.createElement('div');
             card.innerHTML = cardHTML;
