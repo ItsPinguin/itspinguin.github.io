@@ -1,2 +1,11 @@
 /* Custom styles (if needed) */
 /* Tailwind CSS classes are available in your HTML */
+
+#projects-container {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#projects-container::-webkit-scrollbar {
+    display: none;
+}
