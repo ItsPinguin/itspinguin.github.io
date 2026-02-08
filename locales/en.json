@@ -1,4 +1,9 @@
 {
+    "ui": {
+        "project_card": {
+            "view_button": "View Project"
+        }
+    },
     "projects": {
         "backgammon": {
             "title": "Backgammon propaganda",
