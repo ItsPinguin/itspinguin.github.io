@@ -14,7 +14,13 @@
             "description": "Exploring mathematical 'sandwiches' through trigonometric functions",
             "section1": {
                 "title": "Mathematical sandwich?",
-                "p1": "In this article, we will first define what exactly is a mathematical sandwich, then we'll look at a few examples and on it evolves."
+                "p1": "In this article, we will first define what exactly is a mathematical sandwich, then we'll look at a few examples and on it evolves.",
+                "p2": "On the left is a three layers sandwich, a beautiful one."
+            },
+            "section2": {
+                "title": "Defining the sandwich",
+                "p1": "So what is a sandwich you may ask? Here we refer to it as 'stacking' functions. A n layers sandwich is a function which uses n functions.",
+                "p2": "Let's look at this beautiful sandwich equation:"
             }
         }
     }    

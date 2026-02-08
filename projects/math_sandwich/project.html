@@ -4,18 +4,36 @@
         <meta charset="UTF-8">
         <title>Mathematical Sandwich</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <!-- <link rel="stylesheet" href="style.css"> -->
         <script defer src="/scripts/i18n.js"></script>
     </head>
     <body class="bg-zinc-900 min-h-screen w-full">
-        <div class="flex flex-col w-full min-h-screen items-center p-4">
-            <div class="w-full max-w-4xl p-4">
+        <div class="flex flex-col w-full min-h-screen items-center p-8 gap-8">
+            <div class="w-full max-w-4xl gap-8">
                 <div class="flex flex-row gap-4">
                     <img src="thumbnail.png" alt="Mathematical Sandwich" class="w-5/12 h-full object-cover rounded-md">
                     <div>
-                        <div data-i18n="projects.math_sandwich.title"
-                        class="text-zinc-100 text-xl font-sans font-bold">Matdsfdshematical Sandwich</div>
+                        <div data-i18n="projects.math_sandwich.section1.title"
+                        class="text-zinc-100 text-xl font-sans font-bold">Loading...</div>
+                        <div data-i18n="projects.math_sandwich.section1.p1" class="text-zinc-300 mt-2"></div>
+                        <div data-i18n="projects.math_sandwich.section1.p2" class="text-zinc-300 mt-2"></div>
                     </div>
+                </div>
+            </div>
+            <div class="w-full max-w-4xl gap-8">
+                <div>
+                    <div data-i18n="projects.math_sandwich.section2.title"
+                    class="text-zinc-100 text-xl font-sans font-bold mt-4">Loading...</div>
+                    <div data-i18n="projects.math_sandwich.section2.p1" class="text-zinc-300 mt-2"></div>
+                    <div data-i18n="projects.math_sandwich.section2.p2" class="text-zinc-300 mt-2"></div>
+                    <div class="text-white">
+                        \[
+                            f(x) = \sin(3x + \tan( 2y + \sin(x)))
+                        \]
+                    </div>
+                    
                 </div>
             </div>
         </div>
