@@ -54,5 +54,3 @@ async function loadProjects() {
         console.error('Error loading projects:', error);
     }
 }
-
-document.addEventListener('DOMContentLoaded', loadProjects);

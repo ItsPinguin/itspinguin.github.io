@@ -11,7 +11,13 @@
         },
         "math_sandwich": {
             "title": "Mathematical sandwich",
-            "description": "Exploring mathematical 'sandwiches' through trigonometric functions"
+            "description": "Exploring mathematical 'sandwiches' through trigonometric functions",
+            "article": {
+                "section1": {
+                    "title": "Mathematical sandwich?",
+                    "p1": "In this article, we will first define what exactly is a mathematical sandwich, then we'll look at a few examples and on it evolves."
+                }
+            }
         }
     }    
 }
