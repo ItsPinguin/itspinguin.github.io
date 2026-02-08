@@ -3,6 +3,10 @@
         "backgammon": {
             "title": "Backgammon propaganda",
             "description": "The story of creating a propaganda poster"
+        },
+        "math_sandwich": {
+            "title": "Mathematical sandwich",
+            "description": "Exploring mathematical 'sandwiches' through trigonometric functions"
         }
     }    
 }
