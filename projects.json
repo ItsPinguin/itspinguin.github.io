@@ -1,5 +1,6 @@
 [
     {
+        "id": "backgammon",
         "title": "Backgammon propaganda",
         "description": "L'histoire de la création d'affiche de propagande",
         "url": "projects/backgammon/project.html",
@@ -8,6 +9,7 @@
         "tags": ["graphic", "math", "art"]
     },
     {
+        "id": "math_sandwich",
         "title": "Sandwich mathématique",
         "description": "Exploration de 'sandwichs' mathématiques par fonctions trigonométriques",
         "url": "projects/math_sandwich/project.html",
