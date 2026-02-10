@@ -1,0 +1,11 @@
+{
+    "components": {
+        "header": {
+            "title": "Mon Portfolio",
+            "language-toggle": "Langue"
+        },
+        "project-card": {
+            "view-project": "Voir le projet"
+        }
+    }
+}

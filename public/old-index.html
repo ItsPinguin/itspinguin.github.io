@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ItsPinguin's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/i18n.js"></script>
+</head>
+<body class="bg-zinc-900 min-h-screen">
+    <div class="flex-row flex justify-center items-start w-screen min-h-screen">
+        <div class="hidden w-1/5 h-50 p-4">
+            <div class="border border-zinc-700 h-full bg-zinc-800 p-2 h-fit rounded-md">
+                Hi
+            </div>
+        </div>
+        <div class="w-full lg:w-2/3 h-screen p-4 flex flex-col">
+            <div class="h-16 w-full bg-zinc-800 rounded-md border border-zinc-600 p-2 mb-4">Hi</div>
+            <div class="h-fit max-h-screen w-full grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 overflow-y-auto" id="projects-container"></div>
+        </div>
+    </div>
+</body>
