@@ -21,9 +21,10 @@
     },
     {
         "id": "rusty_gravity",
-        "url": "assets/data/projects/rusty_gravity/project.html",
+        "url": "assets/data/projects/rusty_gravity/demo.html",
         "image": "assets/data/projects/rusty_gravity/thumbnail.png",
         "date": {
+            "day": "19",
             "month": "2",
             "year": "2026"
         },

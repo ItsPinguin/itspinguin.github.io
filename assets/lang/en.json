@@ -3,6 +3,10 @@
         "backgammon": {
             "description": "Hi",
             "title": "Backgammon Game"
+        },
+        "rusty_gravity": {
+            "description": "A gravity simulation written in Rust and compiled to WebAssembly.",
+            "title": "Gravity Sim"
         }
     },
     "components": {
