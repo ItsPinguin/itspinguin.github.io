@@ -18,5 +18,15 @@
             "year": "2026"
         },
         "tags": ["code", "math", "graphic"]
+    },
+    {
+        "id": "rusty_gravity",
+        "url": "assets/data/projects/rusty_gravity/project.html",
+        "image": "assets/data/projects/rusty_gravity/thumbnail.png",
+        "date": {
+            "month": "2",
+            "year": "2026"
+        },
+        "tags": ["code", "math", "graphic", "physics"]
     }
 ]
