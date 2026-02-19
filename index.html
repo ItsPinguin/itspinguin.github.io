@@ -8,25 +8,14 @@
     <script type="module" defer src="assets/scripts/components/page.js"></script>
     <script type="module" defer src="assets/scripts/main.js"></script>
     <script type="module" defer src="assets/scripts/index.js"></script>
+    <script type="module" defer src="assets/scripts/components/test-slot.js"></script>
 </head>
-<body class="bg-zinc-900 min-h-screen">
-    <!-- <div class="flex-row flex justify-center items-start w-screen min-h-screen">
-        <div class="hidden w-1/5 h-50 p-4">
-            <div class="border border-zinc-700 h-full w-full bg-zinc-800 p-2 h-fit rounded-md
-                flex flex-row items-center gap-2">
-                Hi
+    <body class="bg-zinc-900 min-h-screen">
+        <div class="flex-row flex justify-center items-start w-screen min-h-screen">
+            <div class="w-full lg:w-2/3 h-screen p-4 flex flex-col">
+                <header-component></header-component>
+                <div class="h-max max-h-screen w-full grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 overflow-y-auto" id="projects-container"></div>
             </div>
         </div>
-        <div class="w-full lg:w-2/3 h-screen p-4 flex flex-col">
-            <header-component></header-component>
-            <div class="h-fit max-h-screen w-full grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 overflow-y-auto" 
-                id="projects-container">
-            </div>
-        </div>
-    </div> -->
-    <page-component>
-            <div class="h-fit max-h-screen w-full grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-4 overflow-y-auto" 
-                id="projects-container">
-            </div>
-    </page-component>
-</body>
+    </body>
+</html>

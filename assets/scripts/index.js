@@ -1,3 +1,5 @@
+import { ProjectCard } from "./components/project-card.js";
+
 async function loadProjects() {
     try {
         const response = await fetch('/assets/data/projects.json');

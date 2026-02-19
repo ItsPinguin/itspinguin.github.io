@@ -22,7 +22,7 @@ export function translate(key, translations) {
         return key.split('.').reduce((obj, k) => obj[k], translations) || key;
     } catch (e) {
         console.error('Translation error for key:', key, e);
-        return key;
+        return key.replaceAll('.', ' '); // Fallback: return key with dots replaced by spaces
     }
 }
 

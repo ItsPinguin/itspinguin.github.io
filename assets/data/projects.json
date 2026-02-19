@@ -3,14 +3,20 @@
         "id": "backgammon",
         "url": "assets/data/projects/backgammon/project.html",
         "image": "assets/data/projects/backgammon/thumbnail.png",
-        "date": "01/2026",
+        "date": {
+            "month": "1",
+            "year": "2026"
+        },
         "tags": ["graphic", "math", "art"]
     },
     {
         "id": "math_sandwich",
         "url": "assets/data/projects/math_sandwich/project.html",
         "image": "assets/data/projects/math_sandwich/thumbnail.png",
-        "date": "01/2026",
+        "date": {
+            "month": "1",
+            "year": "2026"
+        },
         "tags": ["code", "math", "graphic"]
     }
 ]

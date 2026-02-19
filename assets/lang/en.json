@@ -1,6 +1,9 @@
 {
     "projects": {
-        
+        "backgammon": {
+            "description": "Hi",
+            "title": "Backgammon Game"
+        }
     },
     "components": {
         "header": {
@@ -8,7 +11,14 @@
             "language-toggle": "Language"
         },
         "project-card": {
-            "view-project": "View Project"
+            "view-project": "View Project",
+            "date": {
+                "today": "Today",
+                "lastMonth": "Last month",
+                "monthsAgo": "{{count}} months ago",
+                "lastYear": "Last year",
+                "yearsAgo": "{{count}} years ago"
+            }
         }
     }
 }
